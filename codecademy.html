@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Simons Webseite</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">My First Webpage</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">About me</a></li>
+					<li><a href="OOP_Projektwoche.html">OOP Projektwoche</a></li>
+					<li class="active"><a href="codecademy.html">Codecademy
+							Badges</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="oop_info">
+
+		<h2 align="center">
+			<b>Codecademy</b>
+		</h2>
+		<p>An dieser Stelle möchte ich euch gerne die interaktive
+			Plattform Codecademy vorstellen. Um unseren Lernerfolg perfekt zu
+			machen benutzen wir im Rahmen der Internet Basierte Systeme Vorlesung
+			diese autodidaktisch funktionierende Webseite um ohne viele weitere
+			Hilfsmittel effektiv Webbasierte Programmier sprachen zu lernen.
+			Neben Html,Css und Javascript bietet Codecademy ausserdem viele
+			weitere Hilfreiche Module an um Anfängern einen Einstieg in die
+			Programmierung zu geben oder Fortgeschrittenen die Möglichkeit ihre
+			Kentnisse zu festigen.</p>
+	</div>
+	<div class="oop_projekte">
+		<table>
+			<tr>
+				<td><h2>
+						<b>Badges</b>
+					</h2>
+					<p>Ein weiteres positiv zu erwähnendes Feature von Codecademy
+						sind die so genannten "Badges"". Nicht nur für das abschließen von
+						einzelnen Modulen sondern auch für aktives regelmäßiges Arbeiten
+						erhält man Errungenschaften, die man stolz auf seinem Profil
+						präsentieren kann. Um euch einen kleinen einblick darin zu geben
+						werde ich im Folgenden einen Link zu meinem persönlichen Profil
+						einbinden.<br><br><a href="https://www.codecademy.com/users/PunchParty/achievements">Meine Badges</a></p></td>
+				<td><img id="cclogo" src="logo_blue_dark.png"></td>
+
+			</tr>
+
+		</table>
+	</div>
+
+
+	<footer class="container-fluid text-center">
+		<form action="http://de.wikipedia.org/wiki" method="post"
+			target="_blank" name="frmWiki">
+			<table>
+				<tbody>
+					<tr>
+						<td><img src="103px-Wikipedia-logo-v2.svg.png"></td>
+						<td><input maxlength="255" size="25" name="xsearch">
+							<input value="de" name="hl" type="hidden"></td>
+						<td><input
+							onclick="window.document.frmWiki.action = window.document.frmWiki.action + '/' + document.frmWiki.xsearch.value;"
+							value="Search" name="btnG" type="submit"></td>
+
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</footer>
+
+
+</body>
+</html>

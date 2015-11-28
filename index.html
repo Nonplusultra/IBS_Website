@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Simons Webseite</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">My First Webpage</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">About me</a></li>
+					<li><a href="OOP_Projektwoche.html">OOP Projektwoche</a></li>
+					<li><a href="codecademy.html">Codecademy Badges</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<h3 align="center"><b> Herzlich willkommen auf meiner ersten Webseite</b></h3>
+	<table>
+		<tr>
+			<td>
+				<h4 align="center"><b>Über mich</b></h4>
+				<p id="mainpageparagraph">Hallo! Mein Name ist Simon Schniedenharn. Ich bin 22 und derzeit Student an der 
+				Technischen Hochschule Mittelhessen in Gießen. Dort befinde ich mich im 2. Semester
+				eingeschrieben für das Fach Informatik. Neben den Kernfächern meines Studiums
+				interessiere ich mich für 3D Modeling und OpenGL Programmierung und hoffe euch hier
+				in Zukunft das eine oder andere Projekt von mir Vorstellen zu können.</p>
+				</td>
+				<td>
+				<img id="mainpageimg" src="http://media.einfachtierisch.de/thumbnail/800/600/media.einfachtierisch.de/images/2014/02/britisch-kurzhaar-katzenbaby-schlaeft-shutterstock-Oksana-Kuzmina.jpg">
+				</td>
+				</tr>
+		</table>
+
+	<footer class="container-fluid text-center">
+		<form action="http://de.wikipedia.org/wiki" method="post"
+			target="_blank" name="frmWiki">
+			<table>
+				<tbody>
+					<tr>
+						<td><img src="103px-Wikipedia-logo-v2.svg.png"></td>
+						<td><input maxlength="255" size="25" name="xsearch">
+							<input value="de" name="hl" type="hidden"></td>
+						<td><input
+							onclick="window.document.frmWiki.action = window.document.frmWiki.action + '/' + document.frmWiki.xsearch.value;"
+							value="Search" name="btnG" type="submit"></td>
+
+					</tr>
+		
+				</tbody>
+			</table>
+		</form>
+	</footer>
+
+</body>
+</html>
