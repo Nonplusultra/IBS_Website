@@ -46,13 +46,13 @@ table img {
 	}
 }
 
-.oop_projekte table{
-
-	margin-left:auto;
-	margin-right:auto;
+.oop_projekte table {
+	margin-left: auto;
+	margin-right: auto;
 }
-.oop_projekte td{
-	padding:30px;
+
+.oop_projekte td {
+	padding: 30px;
 }
 
 .oop_info {
@@ -63,7 +63,7 @@ table img {
 
 .oop_projekte h2 {
 	text-align: center;
-	vertical-align:top;
+	vertical-align: top;
 	padding-bottom: 10px;
 }
 
@@ -81,19 +81,27 @@ table img {
 	height: 300px;
 	width: 300px;
 }
-#cclogo{
+
+#cclogo {
 	height: 150px;
 }
-#tetrisimg{
+
+#tetrisimg {
 	height: 350px;
-	width:auto;
+	width: auto;
 }
-#mainpageimg{
-	width:500px;
+
+#mainpageimg {
+	width: 500px;
+	height: auto;
+}
+
+#mainpageparagraph {
+	width: 300px;
+	height: 400px;
+	padding: 50px;
+}
+#wikilogo{
+	width:40px;
 	height:auto;
-}
-#mainpageparagraph{
-	width:300px;
-	height:400px;
-	padding:50px;
 }

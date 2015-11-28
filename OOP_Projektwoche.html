@@ -33,7 +33,9 @@
 	</nav>
 
 	<div class="oop_info">
-	<h2 align="center"><b>Objektorienterte Programmierung Projektwoche</b></h2>
+		<h2 align="center">
+			<b>Objektorienterte Programmierung Projektwoche</b>
+		</h2>
 		<p>
 			Im Rahmen der Projektwoche im Modul Objektorienterte Programmierung
 			unter Prof.Klaus Quibeldey Cirkel haben wir vom XX.XX.XXXX bis zum
@@ -59,9 +61,8 @@
 							href="http://www.uml.org/">UML</a> Diagramme haben wir uns gleich
 						an die Arbeit gemacht. Für einen Computergegner hat die Zeit
 						leider nicht mehr gereicht, aber man kann sich mit einem anderen
-						Mitspieler messen.<br>
-						<br> <a href="SelbsthilfeGruppe_TicTacToe.zip">TicTacToe
-							Download</a>
+						Mitspieler messen.<br> <br> <a
+							href="SelbsthilfeGruppe_TicTacToe.zip">TicTacToe Download</a>
 
 					</p>
 				</td>
@@ -110,22 +111,22 @@
 
 
 	<footer class="container-fluid text-center">
-		<form action="http://de.wikipedia.org/wiki" method="post"
-			target="_blank" name="frmWiki">
-			<table>
-				<tbody>
-					<tr>
-						<td><img src="103px-Wikipedia-logo-v2.svg.png"></td>
-						<td><input maxlength="255" size="25" name="xsearch">
-							<input value="de" name="hl" type="hidden"></td>
-						<td><input
-							onclick="window.document.frmWiki.action = window.document.frmWiki.action + '/' + document.frmWiki.xsearch.value;"
-							value="Search" name="btnG" type="submit"></td>
+		<div class="mw-inputbox-centered" style="">
 
-					</tr>
-				</tbody>
-			</table>
-		</form>
+			<form name="searchbox" class="searchbox"
+				action="http://de.wikipedia.org/wiki/Spezial:Suche" id="searchbox">
+				<p>
+						<img id="wikilogo" src="103px-Wikipedia-logo-v2.svg.png">
+					<input
+						class="mw-inputbox-input searchboxInput mw-ui-input mw-ui-input-inline"
+						name="search" type="text" value="" placeholder="Jetzt suchen!"
+						size="50" dir="ltr" /><br /> <input type="submit" name="go"
+						class="mw-ui-button" value="Artikel-Suche" />&#160;<input
+						type="submit" name="fulltext" class="mw-ui-button"
+						value="Volltextsuche" />
+				</p>
+			</form>
+		</div>
 	</footer>
 
 </body>
