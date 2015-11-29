@@ -1,5 +1,5 @@
 html, body {
-	padding-top: 30px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
@@ -30,7 +30,10 @@ footer td {
 .row.content {
 	height: 450px
 }
-
+#trfrontpage{
+	margin-right:auto;
+	margin-left:auto;
+}
 table img {
 	height: 40px;
 	width: 40px;
@@ -90,7 +93,10 @@ table img {
 	height: 350px;
 	width: auto;
 }
-
+.mobiledesktop{
+	float:left;
+	font-size:20px;
+}
 #mainpageimg {
 	width: 500px;
 	height: auto;

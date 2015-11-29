@@ -1,0 +1,120 @@
+html, body {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #161616;
+}
+
+footer td {
+	padding-left: 5px;
+}
+
+.row.content {
+	height: 450px
+}
+
+table img {
+	height: 40px;
+	width: 40px;
+}
+
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
+
+.oop_info {
+	padding-top: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.oop_projekte {
+	padding-top: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-bottom: 70px;
+}
+
+.viergewinnt img {
+	height: 300px;
+	width: 300px;
+}
+
+#cclogo {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: 50px;
+}
+
+#tetrisimg {
+	margin-top: 20px;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#viergewinntimg {
+	margin-top: 20px;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#tictactoeimg {
+	margin-top: 20px;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#mainpageimg {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+	width: 200px;
+	height: auto;
+	display: block;
+}
+
+#mainpageparagraph {
+	margin-left:20px;
+	margin-right:20px;
+}
+#wikilogo{
+	width:40px;
+	height:auto;
+	margin-bottom:6px;
+}
+
+#wikisearchbox {
+	margin-bottom:10px;
+}
+.mobiledesktop{
+	float:left;
+	font-size:20px;
+}
