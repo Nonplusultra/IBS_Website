@@ -3,15 +3,12 @@ html, body {
 	padding-bottom: 40px;
 }
 
-<<<<<<< HEAD
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
 	{
 	background-color: transparent;
 	color: #999999
 }
 
-=======
->>>>>>> c7cf60992b847a5b561fa78528df2caedea96939
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
@@ -39,19 +36,12 @@ footer td {
 .row.content {
 	height: 450px
 }
-<<<<<<< HEAD
 
 #trfrontpage {
 	margin-right: auto;
 	margin-left: auto;
 }
 
-=======
-#trfrontpage{
-	margin-right:auto;
-	margin-left:auto;
-}
->>>>>>> c7cf60992b847a5b561fa78528df2caedea96939
 table img {
 	height: 40px;
 	width: 40px;
@@ -111,19 +101,12 @@ table img {
 	height: 350px;
 	width: auto;
 }
-<<<<<<< HEAD
 
 .mobiledesktop {
 	float: left;
 	font-size: 20px;
 }
 
-=======
-.mobiledesktop{
-	float:left;
-	font-size:20px;
-}
->>>>>>> c7cf60992b847a5b561fa78528df2caedea96939
 #mainpageimg {
 	width: 500px;
 	height: auto;
@@ -134,15 +117,8 @@ table img {
 	height: 400px;
 	padding: 50px;
 }
-<<<<<<< HEAD
 
 #wikilogo {
 	width: 40px;
 	height: auto;
 }
-=======
-#wikilogo{
-	width:40px;
-	height:auto;
-}
->>>>>>> c7cf60992b847a5b561fa78528df2caedea96939

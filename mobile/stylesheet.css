@@ -2,15 +2,11 @@ html, body {
 	padding-top: 30px;
 	padding-bottom: 40px;
 }
-<<<<<<< HEAD
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
 	{
 	background-color: transparent;
 	color: #999999
 }
-=======
-
->>>>>>> c7cf60992b847a5b561fa78528df2caedea96939
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
