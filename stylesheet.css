@@ -1,0 +1,124 @@
+html, body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus
+	{
+	background-color: transparent;
+	color: #999999
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #161616;
+}
+
+footer td {
+	padding-left: 5px;
+}
+
+.row.content {
+	height: 450px
+}
+
+#trfrontpage {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table img {
+	height: 40px;
+	width: 40px;
+}
+
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
+
+.oop_projekte table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.oop_projekte td {
+	padding: 30px;
+}
+
+.oop_info {
+	padding-top: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.oop_projekte h2 {
+	text-align: center;
+	vertical-align: top;
+	padding-bottom: 10px;
+}
+
+.oop_projekte p {
+	width: 300px;
+	height: 300px;
+}
+
+.oop_projekte img {
+	height: 300px;
+	width: 300px;
+}
+
+.viergewinnt img {
+	height: 300px;
+	width: 300px;
+}
+
+#cclogo {
+	height: 150px;
+}
+
+#tetrisimg {
+	height: 350px;
+	width: auto;
+}
+
+.mobiledesktop {
+	float: left;
+	font-size: 20px;
+}
+
+#mainpageimg {
+	width: 500px;
+	height: auto;
+}
+
+#mainpageparagraph {
+	width: 300px;
+	height: 400px;
+	padding: 50px;
+}
+
+#wikilogo {
+	width: 40px;
+	height: auto;
+}
